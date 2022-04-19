@@ -10,7 +10,8 @@ config_version=4
 
 [application]
 
-config/name="_Game"
+config/name="LatterToFormer"
+config/description="A game about Terraforming a planet."
 config/icon="res://icon.png"
 
 [physics]
