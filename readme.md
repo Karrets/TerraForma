@@ -1,6 +1,6 @@
-##This README is mostly just me planning what the game will be like, so it will be of little use to most!
+## This README is mostly just me planning what the game will be like, so it will be of little use to most!
 
-#Feel free to read it anyway :)
+# Feel free to read it anyway :)
 
 Use these tilesets, along with some hue shifting to make a nice little preview world!
 https://opengameart.org/content/outdoor-tiles-again
@@ -34,7 +34,7 @@ INFO ON HOW TO TERRAFORM:
 https://en.wikipedia.org/wiki/Terraforming_of_Mars
 
 PLAYED SPORE?: I'm stealing their terraforming gui. It is a simplification and will be expanded on though... Here's what theres looks like:
-https://static.wikia.nocookie.net/spore/images/0/01/T0_terrascore.jpg/revision/latest/scale-to-width-down/243?cb=20090407231606
+https://static.wikia.nocookie.net/spore/images/0/01/T0_terrascore.jpg
 
 ```
 Basic Gameplay loop.
