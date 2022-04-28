@@ -24,8 +24,8 @@ public class Man : Node2D {
 			return;
 		}
 
-		_bounce.y = (_random.Next() % 5) - 2.5f;
-		_bounce.x = (_random.Next() % 5) - 2.5f;
+		_bounce.y = _random.Next() % 32 / 8f - 2f; //NUMBER BETWEEN -2 & 2
+		_bounce.x = _random.Next() % 32 / 8f - 2f; //^^^
 		ContinueBounce();
 	}
 
