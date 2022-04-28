@@ -1,3 +1,5 @@
+# Idea-specific ignores
+.idea/
 
 # Godot-specific ignores
 .import/
