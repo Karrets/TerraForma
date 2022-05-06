@@ -1,0 +1,25 @@
+[gd_scene load_steps=2 format=2]
+
+[sub_resource type="CSharpScript" id=1]
+script/source = "using Godot;
+using System;
+
+public class Colony : RoomGroup {
+	[Export(PropertyHint.Range, \"1, 30,\")]
+	private int _colonySize = 10;
+
+	// Called when the node enters the scene tree for the first time.
+	public override void _Ready()
+	{
+		for (var i = 0; i < _colonySize; i++) {
+			AddChild(new Man());
+		}
+	}
+}
+"
+
+[node name="Colony" type="Spatial"]
+
+[node name="RoomGroup" type="RoomGroup" parent="."]
+script = SubResource( 1 )
+_colonySize = null

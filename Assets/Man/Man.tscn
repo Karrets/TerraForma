@@ -3,8 +3,10 @@
 [ext_resource path="res://Assets/Man/Man.cs" type="Script" id=1]
 [ext_resource path="res://Assets/Man/man.png" type="Texture" id=2]
 
-[node name="Man" type="Node2D"]
+[node name="Man" type="Spatial"]
 script = ExtResource( 1 )
 
-[node name="Sprite" type="Sprite" parent="."]
+[node name="Sprite3D" type="Sprite3D" parent="."]
+transform = Transform( 1, 0, 0, 0, 0.954782, 0.297308, 0, -0.297308, 0.954782, 0, 0.0123192, 0 )
+pixel_size = 0.015
 texture = ExtResource( 2 )
