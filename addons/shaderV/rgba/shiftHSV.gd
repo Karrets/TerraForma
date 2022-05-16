@@ -1,3 +1,5 @@
+shader_type spatial;
+
 tool
 extends VisualShaderNodeCustom
 class_name VisualShaderNodeRGBAshiftHSV
